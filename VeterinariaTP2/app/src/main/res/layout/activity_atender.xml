@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.AtenderActivity">
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textStyle="bold|italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese nombre del veterinario"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/rg_docs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raul Vargas"
+            android:textAlignment="viewStart"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jose Martinez"
+            android:textAlignment="viewStart"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marcelo Montero"
+            android:textAlignment="viewStart"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tomas Rodriguez"
+            android:textAlignment="viewStart"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geronimo Fuentes"
+            android:textAlignment="viewStart"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txt_CausasDeRevision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Causas"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textColorHighlight="#050505"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txt_Medicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Medicamentos"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textColorHighlight="#050505"
+        android:textStyle="bold|italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="85dp" />
+
+    <Button
+        android:id="@+id/btn_mascotaAtendida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mascota atendida"
+        android:textColor="#050505"
+        android:textColorHighlight="#050505"
+        android:textStyle="italic"
+        app:iconTint="#8BC34A" />
+
+</LinearLayout>

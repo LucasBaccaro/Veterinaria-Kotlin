@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/txt_id_sala"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_nombre_sala"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_atender_sala"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:text="atender"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textStyle="bold|italic" />
+
+    </TableRow>
+</TableLayout>

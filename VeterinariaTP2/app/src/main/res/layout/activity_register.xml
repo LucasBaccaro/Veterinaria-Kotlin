@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.RegisterActivity" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido, ingrese los datos de su mascota por favor"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="78dp" />
+
+    <EditText
+        android:id="@+id/txt_NombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de Mascota"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su tipo de mascota"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/s_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:id="@+id/txt_raza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Raza"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txt_Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese edad"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txt_CausaDeAtencion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Causa de atencion"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textStyle="bold|italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="114dp" />
+
+    <Button
+        android:id="@+id/btn_cargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cargar"
+        android:textColor="#050505" />
+
+</LinearLayout>
